@@ -1,1 +1,112 @@
-
+{
+  "name": "AFK Bot",
+  "bot-account": {
+    "username": "KingBotTop",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "194.62.251.131",
+    "port": 23214,
+    "version": "1.21.1"
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "Perzuu"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 10000,
+      "messages": [
+        "I'm a Bot PvP player",
+        "Subscribe to kingsowrov!",
+        "I'll join queue every 10 seconds!",
+        "wanna play Axe",
+        "/queue join Axe",
+        "/queue leave",
+        "wanna play Mace",
+        "/queue join Mace",
+        "/queue leave",
+        "wanna play Netherite_Pot",
+        "/queue join Netherite_Pot",
+        "/queue leave",
+        "wanna play OP",
+        "/queue join OP",
+        "/queue leave",
+        "wanna play SMP",
+        "/queue join SMP",
+        "/queue leave",
+        "wanna play Spear",
+        "/queue join Spear",
+        "/queue leave",
+        "wanna play Sword",
+        "/queue join Sword",
+        "/queue leave"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 20000,
+    "periodic-rejoin": {
+      "enabled": false,
+      "min-interval": 20,
+      "max-interval": 60
+    }
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": true,
+    "place-night": true
+  },
+  "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1549756514162577470/cR2Td8WvX4aFBbheKbsNseX5sVV0ldJ8IDnpU9zcg8kfSL6nXhgx3b1fIjzK8ZE-9FML",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": true
+    }
+  },
+  "chat": {
+    "respond": true
+  }
+}
